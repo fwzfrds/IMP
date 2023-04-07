@@ -7,9 +7,9 @@ const PostCard = ({ postDetails }) => {
         <Card maxW='sm' boxShadow={'base'} padding={3} borderRadius={3} justifyContent={'space-between'}>
             <CardBody>
                 <Stack spacing='3'>
-                    <Heading size='md'>{postDetails?.title}</Heading>
+                    <Heading size='md'>{postDetails ? postDetails.title : 'Title'}</Heading>
                     <Text>
-                        {postDetails?.body}
+                        {postDetails ? postDetails.body : 'Body'}
                     </Text>
                 </Stack>
             </CardBody>
