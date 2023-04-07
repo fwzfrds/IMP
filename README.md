@@ -8,7 +8,7 @@
     <a href="https://github.com/fwzfrds/IMP"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://imp-fwzfrds.vercel.app/">View Demo</a>
+    <a href="https://imp-fwzfrds.vercel.app/" target="_blank">View Demo</a>
   </p>
 </p>
 

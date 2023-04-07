@@ -7,15 +7,15 @@ const PostCard = ({ postDetails }) => {
         <Card maxW='sm' boxShadow={'base'} padding={3} borderRadius={3} justifyContent={'space-between'}>
             <CardBody>
                 <Stack spacing='3'>
-                    <Heading size='md'>{postDetails.title}</Heading>
+                    <Heading size='md'>{postDetails?.title}</Heading>
                     <Text>
-                        {postDetails.body}
+                        {postDetails?.body}
                     </Text>
                 </Stack>
             </CardBody>
             <Divider />
             <CardFooter>
-                <NextLink href={`/posts/${postDetails.id}`}>
+                <NextLink href={`/posts/${postDetails?.id}`}>
                     <Button variant='solid' colorScheme='blue' marginTop={2} position={'relative'} bottom={0}>
                         Read More
                     </Button>
